@@ -1,0 +1,24 @@
+####
+# This Dockerfile is used in order to build a container that runs the Quarkus application in native (no JVM) mode
+#
+# Before building the docker image run:
+#
+# mvn package -Pnative -Dquarkus.native.container-build=true
+#
+# Then, build the image with:
+#
+# docker build -f src/main/docker/Dockerfile.native -t laguiar/sekreto .
+#
+# Then run the container using:
+#
+# docker run -i --rm -p 80:8080 laguiar/sekreto
+#
+###
+FROM registry.access.redhat.com/ubi8/ubi-minimal:8.1
+WORKDIR /work/
+COPY --chown=1001:root build/*-runner /work/application
+
+EXPOSE 80
+USER 1001
+
+CMD ["./application", "-Dquarkus.http.host=0.0.0.0"]
