@@ -31,6 +31,10 @@ quarkusDev {
     setSourceDir("$projectDir/src/main/kotlin")
 }
 
+quarkusBuild {
+    uberJar(true)
+}
+
 allOpen {
     annotation("javax.ws.rs.Path")
     annotation("javax.enterprise.context.ApplicationScoped")
