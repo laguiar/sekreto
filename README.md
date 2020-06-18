@@ -12,7 +12,8 @@ Example:
 >sorry flower fall math uniform horror voyage enroll school cube any tomorrow
 
 The user must write down these words in a paper sheet, because it **MUST NOT BE STORED ONLINE**, and hide this paper somewhere at home.
-One common practice, is to have multiple copies of this paper and keep in multiple locations, in case your copy get damaged by water, fire, or if someone breaks into your home and you just eat it. =)
+
+One common practice, is to have multiple copies of this paper and keep them in different locations, in case your copy get damaged by water, fire, or if someone breaks into your home and you just eat it. =)
 
 The major problem here, is that **anyone that have access to any of these copies, can completely steal all your Bitcoins**.
 
@@ -20,7 +21,7 @@ The major problem here, is that **anyone that have access to any of these copies
 
 ### How Sekreto can help?
 
-Inspired by what [CoolWallet](https://www.coolwallet.io) did, instead of generating 24 words, they generate 24 numeric codes, and if you need to use it as words to recovery in any other wallet, they have a [conversion table](https://www.coolwallet.io/wp-content/uploads/2020/04/Number-seed-conversion-v1.pdf) that you can use to find what are the words correspondents to your numeric seed, but it's the same for everyone.
+Inspired by what [CoolWallet](https://www.coolwallet.io) did, instead of generating 24 words, they generate 24 numeric codes, and if you need to use it as words to recovery in any other wallet, they have a [conversion table](https://www.coolwallet.io/wp-content/uploads/2020/04/Number-seed-conversion-v1.pdf) to find what are the words correspondents to your numeric seed, but this table **is the same for everyone**.
 
 What Sekreto does is to generate an individual _"conversion table"_ that also maps a code to a word, and every generated table is unique.
 
