@@ -26,8 +26,9 @@ Since the codes are randomly generated for every single table, you can keep a co
 ### !!! Generating the code table !!!
 Sekreto is running on heroku, all what you need to do is to use the generator link do create as many code tables as you want.
 
-The link below goes direct to the generator API, just click on it or open in another tab!
-_(TODO)_
+The link below goes direct to the generator API, just click on it to generate a code table!
+[https://sekreto.herokuapp.com](https://sekreto.herokuapp.com/sekreto)
+
 
 ### How to generate the table offline
 _(TODO) - A CLI application will be available soon._
