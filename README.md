@@ -38,6 +38,19 @@ The link below goes direct to the generator API, just click on it to generate a 
 
 
 &nbsp;
+The generated table will looks like this:
+>Code - Mapped Word <br>
+>0501 - abandon <br>
+>7928 - ability <br>
+>2217 - able <br>
+>... <br>
+>1293 - zero <br>
+>6759 - zone <br>
+>3624 - zoo <br>
+
+Obviously, all the 2048 words defined on BIP0039 are covered.
+
+&nbsp;
 
 #### How to generate the table offline
 _(TODO) - A CLI application will be available soon._
