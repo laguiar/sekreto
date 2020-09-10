@@ -1,6 +1,6 @@
 package io.github.sekreto
 
-import java.io.*
+import java.io.File
 
 const val FILE_OUTPUT = "sekreto.txt"
 private const val WORD_LIST_SIZE = 2048
@@ -11,7 +11,7 @@ private const val HEADER_WORD = "Mapped Word"
 
 /**
  * Generates a Map<Sting, String> containing a randomized code for each word mapped.
- * The generated code should have the format 00042, padding zeros on the left until reach the configured length.
+ * The generated code should have the format 0042, padding zeros on the left until reach the configured length.
  */
 fun generateCodeTable(words: List<String>): Map<String, String> {
     val table = LinkedHashMap<String, String>(2049)
