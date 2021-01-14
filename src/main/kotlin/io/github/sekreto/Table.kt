@@ -4,14 +4,14 @@ import java.io.File
 
 const val FILE_OUTPUT = "sekreto.txt"
 private const val WORD_LIST_SIZE = 2048
-private const val CODE_LENGTH = 4
-private const val RANGE_END = 9999
-private const val HEADER_CODE = "Code"
-private const val HEADER_WORD = "Mapped Word"
+private const val CODE_LENGTH = 5
+private const val RANGE_END = 99999
+private const val HEADER_CODE = "Codes"
+private const val HEADER_WORD = "Mapped Words"
 
 /**
  * Generates a Map<Sting, String> containing a randomized code for each word mapped.
- * The generated code should have the format 0042, padding zeros on the left until reach the configured length.
+ * The generated code should have the format 00042, padding zeros on the left until reach the configured length.
  */
 fun generateCodeTable(words: List<String>): Map<String, String> {
     val table = LinkedHashMap<String, String>(2049)
